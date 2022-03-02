@@ -1,7 +1,7 @@
 <div class="card">
-  <a href="">
-    <img src="{{movie.poster_path}}" alt="poster"/>
-    <p class="ellipsis">{{movie.title}}</p>
+  <a [routerLink]="['/movie', movie.id]">
+    <img src="{{movie.poster_path}}"  alt="poster"/>
+    <p>{{movie.title}}</p>
   </a>
 </div>
 

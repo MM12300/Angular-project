@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {Observable} from "rxjs";
+import {catchError, Observable, throwError} from "rxjs";
 import {Movie} from "../interfaces/movies";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 
 @Injectable({
   providedIn: 'root'
@@ -15,5 +15,30 @@ export class ApiService {
       .get<Movie[]>(
         `https://movie-api.benoithubert.me/movies`
       );
+  }
+
+  getMovie(id: number): Observable<Movie> {
+    return this.http
+      .get<Movie>(
+        `https://movie-api.benoithubert.me/movies/${id}`
+      )
+      .pipe(
+        catchError(error => this.handleError(error))
+      );
+  }
+
+  handleError(error: HttpErrorResponse) {
+    let errorMessage = '';
+    if (error.status === 0) {
+      errorMessage = 'A network error occurred. Please come back later';
+    }
+      else if (error.status === 404) {
+      errorMessage = 'This movie does not exist anymore.';
+    } else if (error.status === 400) {
+      errorMessage = 'There are missing or misformated fields.';
+    } else {
+      errorMessage = 'An unexpected error occurred.';
+    }
+    return throwError(errorMessage);
   }
 }
