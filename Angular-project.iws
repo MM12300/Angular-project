@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="preparing for comments display">
-      <change afterPath="$PROJECT_DIR$/src/app/movie-add-comment/movie-add-comment.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-add-comment/movie-add-comment.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-add-comment/movie-add-comment.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-add-comment/movie-add-comment.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/movies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movies.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.service.ts" afterDir="false" />
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="comment form working but not nicely displayed">
+      <change beforePath="$PROJECT_DIR$/src/app/movie-detail/movie-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-detail/movie-detail.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646223405265</updated>
       <workItem from="1646223406522" duration="544000" />
-      <workItem from="1646223966909" duration="9219000" />
+      <workItem from="1646223966909" duration="9533000" />
     </task>
     <task id="LOCAL-00001" summary="app setup + service api">
       <created>1646224577600</created>
@@ -161,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646231661574</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="comment form working but not nicely displayed">
+      <created>1646233465488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646233465488</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +192,7 @@
     <MESSAGE value="TEST removal" />
     <MESSAGE value="movie detail component" />
     <MESSAGE value="preparing for comments display" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparing for comments display" />
+    <MESSAGE value="comment form working but not nicely displayed" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment form working but not nicely displayed" />
   </component>
 </project>

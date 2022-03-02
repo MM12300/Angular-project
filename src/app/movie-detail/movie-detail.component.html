@@ -2,5 +2,5 @@
   <img src="{{movie.poster_path}}"  alt="poster"/>
   <p class="ellipsis">{{movie.title}}</p>
   <h6>Comments :</h6>
-  <p *ngFor="let comment of movie.comments"> Commentaire : {{comment}}  </p>
+  <p *ngFor="let comment of movie.comments"> Commentaire : {{comment.text}} ({{comment.rating}}/10) </p>
 </div>
