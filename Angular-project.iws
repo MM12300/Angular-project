@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="templates (html/css) for homecomponent">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/movies.ts" afterDir="false" />
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="interface">
       <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646223405265</updated>
       <workItem from="1646223406522" duration="544000" />
-      <workItem from="1646223966909" duration="2708000" />
+      <workItem from="1646223966909" duration="3703000" />
     </task>
     <task id="LOCAL-00001" summary="app setup + service api">
       <created>1646224577600</created>
@@ -91,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646226041618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="interface">
+      <created>1646226903280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646226903280</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +123,7 @@
     <MESSAGE value="homepage component" />
     <MESSAGE value="placeholder clean-up in app.component.html&#10;routing of homepage" />
     <MESSAGE value="templates (html/css) for homecomponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="templates (html/css) for homecomponent" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
 </project>
