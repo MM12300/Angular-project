@@ -7,19 +7,23 @@ import { HomepageComponent } from './homepage/homepage.component';
 import {HttpClientModule} from "@angular/common/http";
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
+import { MovieAddCommentComponent } from './movie-add-comment/movie-add-comment.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     MovieCardComponent,
-    MovieDetailComponent
+    MovieDetailComponent,
+    MovieAddCommentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -54,5 +54,10 @@ export interface Movie {
   video: boolean;
   vote_average: number;
   vote_count: number;
-  comments: string[];
+  comments: MovieComment[];
+}
+
+export interface MovieComment {
+  rating: number;
+  text: string;
 }
