@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="displaying all movie names">
-      <change afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="card unstuck">
       <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-card/movie-card.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646223405265</updated>
       <workItem from="1646223406522" duration="544000" />
-      <workItem from="1646223966909" duration="5294000" />
+      <workItem from="1646223966909" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="app setup + service api">
       <created>1646224577600</created>
@@ -118,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646228130121</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="card component + card component displays in homepage">
+      <created>1646229344556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646229344556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="card unstuck">
+      <created>1646229449350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646229449350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +153,8 @@
     <MESSAGE value="interface" />
     <MESSAGE value="fetching movies confirmed by inspector, now need to display them" />
     <MESSAGE value="displaying all movie names" />
-    <option name="LAST_COMMIT_MESSAGE" value="displaying all movie names" />
+    <MESSAGE value="card component + card component displays in homepage" />
+    <MESSAGE value="card unstuck" />
+    <option name="LAST_COMMIT_MESSAGE" value="card unstuck" />
   </component>
 </project>
