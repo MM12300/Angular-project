@@ -1,6 +1,6 @@
 <div>
   <h3>Add a Comment</h3>
-  <form [formGroup]="postForm" (ngSubmit)="addComment(movie.id)">
+  <form [formGroup]="movieForm" (ngSubmit)="addComment(movie.id)">
 
     <label for="rating">Rating</label>
     <input id="rating" name="rating" formControlName="rating" placeholder="rating" type="text" />

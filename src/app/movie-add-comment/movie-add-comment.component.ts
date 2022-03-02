@@ -12,10 +12,10 @@ import {Movie, MovieComment} from "../../interfaces/movies";
 export class MovieAddCommentComponent implements OnInit {
 
   @Input() movie!: Movie;
-  postForm: FormGroup;
+  movieForm: FormGroup;
 
   constructor(private fb: FormBuilder, private apiService: ApiService) {
-    this.postForm = this.fb.group({
+    this.movieForm = this.fb.group({
       rating: '',
       text: '',
     })
@@ -26,7 +26,7 @@ export class MovieAddCommentComponent implements OnInit {
   }
 
   addComment(id : number) {
-    const commentData = this.postForm.value;
+    const commentData = this.movieForm.value;
 
     this.apiService.createComment(commentData, id)
       .subscribe({
@@ -37,6 +37,8 @@ export class MovieAddCommentComponent implements OnInit {
           this.error = error;
         }
       });
+
+    this.movieForm.reset();
   }
 
 }
