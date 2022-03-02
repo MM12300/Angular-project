@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="app setup + service api">
-      <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="homepage component">
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646223405265</updated>
       <workItem from="1646223406522" duration="544000" />
-      <workItem from="1646223966909" duration="801000" />
+      <workItem from="1646223966909" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="app setup + service api">
       <created>1646224577600</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646224577600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homepage component">
+      <created>1646224837742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646224837742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="app setup + service api" />
-    <option name="LAST_COMMIT_MESSAGE" value="app setup + service api" />
+    <MESSAGE value="homepage component" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage component" />
   </component>
 </project>
