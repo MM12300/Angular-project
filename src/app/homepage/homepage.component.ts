@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Movie} from "../../interfaces/movies";
 import {ApiService} from "../../services/api.service";
 
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.scss', './flexboxgrid.min.css', './sidebar.css']
+  styleUrls: ['./homepage.component.scss', './flexboxgrid.min.css', './sidebar.css'],
+  encapsulation: ViewEncapsulation.None,
 })
+
 export class HomepageComponent implements OnInit {
 
   public movies: Movie[] | undefined
