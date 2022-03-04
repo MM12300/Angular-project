@@ -9,6 +9,8 @@ import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { MovieAddCommentComponent } from './movie-add-comment/movie-add-comment.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { MovieByGenderComponent } from './movie-by-gender/movie-by-gender.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {ReactiveFormsModule} from "@angular/forms";
     HomepageComponent,
     MovieCardComponent,
     MovieDetailComponent,
-    MovieAddCommentComponent
+    MovieAddCommentComponent,
+    SidebarComponent,
+    MovieByGenderComponent
   ],
   imports: [
     BrowserModule,

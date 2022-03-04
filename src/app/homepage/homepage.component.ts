@@ -12,7 +12,6 @@ import {ApiService} from "../../services/api.service";
 export class HomepageComponent implements OnInit {
 
   public movies!: Movie[]
-  public genres!: MovieGenre[]
 
   constructor(private apiService: ApiService) { }
 
@@ -20,9 +19,7 @@ export class HomepageComponent implements OnInit {
     this.apiService.getAllMovies().subscribe(movies => {
       this.movies = movies;
     });
-    this.apiService.getAllMovieGenres().subscribe(genres =>{
-      this.genres = genres;
-    })
+
   }
 
 }

@@ -1,26 +1,10 @@
 <body>
-<div class="header">
-  <a href="index.html">
-    <img class="logo" src="../../assets/images/logo.png" alt="logo"/>
-  </a>
-</div>
-<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
-<label for="openSidebarMenu" class="sidebarIconToggle">
-  <div class="spinner diagonal part-1"></div>
-  <div class="spinner horizontal"></div>
-  <div class="spinner diagonal part-2"></div>
-</label>
-<div id="sidebarMenu">
-  <ul class="sidebarMenuInner">
-    <li *ngFor="let genre of genres"><a href="#" target="_blank">{{genre.name}}</a></li>
-  </ul>
-</div>
+
+<app-sidebar></app-sidebar>
 
 <div id="center" class="main center">
 
   <div class="container">
-
-    <!-- Début partie spécifique home page -->
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let movie of movies">
         <app-movie-card [movie]="movie"></app-movie-card>
