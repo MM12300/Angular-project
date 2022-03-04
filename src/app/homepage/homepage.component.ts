@@ -5,7 +5,7 @@ import {ApiService} from "../../services/api.service";
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.scss', './flexboxgrid.min.css', './sidebar.css'],
+  styleUrls: ['./homepage.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="movie genres list from API">
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="header shifted to main template&#10;+ sidebar component refactor">
+      <change afterPath="$PROJECT_DIR$/src/app/flexboxgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sidebar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/movies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movies.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\_CODE\Angular-project\node_modules\typescript\lib" />
   </component>
@@ -65,7 +69,7 @@
       <workItem from="1646223966909" duration="11769000" />
       <workItem from="1646292951720" duration="596000" />
       <workItem from="1646379642378" duration="6000" />
-      <workItem from="1646401264424" duration="2504000" />
+      <workItem from="1646401264424" duration="4191000" />
     </task>
     <task id="LOCAL-00001" summary="app setup + service api">
       <created>1646224577600</created>
@@ -193,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646402615392</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="header shifted to main template&#10;+ sidebar component refactor">
+      <created>1646403932263</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646403932263</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +241,7 @@
     <MESSAGE value="some style" />
     <MESSAGE value="some style and form reset" />
     <MESSAGE value="movie genres list from API" />
-    <option name="LAST_COMMIT_MESSAGE" value="movie genres list from API" />
+    <MESSAGE value="header shifted to main template&#10;+ sidebar component refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="header shifted to main template&#10;+ sidebar component refactor" />
   </component>
 </project>
