@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {catchError, Observable, throwError} from "rxjs";
-import {Movie, MovieComment} from "../interfaces/movies";
+import {Movie, MovieComment, MovieGenre} from "../interfaces/movies";
 import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 
 @Injectable({
@@ -32,6 +32,16 @@ export class ApiService {
       .post<MovieComment>(
         `https://movie-api.benoithubert.me/movies/${id}/comments`,
         commentData,
+      )
+      .pipe(
+        catchError(error => this.handleError(error))
+      );
+  }
+
+  getAllMovieGenres(): Observable<MovieGenre[]> {
+    return this.http
+      .get<MovieGenre[]>(
+        `https://movie-api.benoithubert.me/genres/`
       )
       .pipe(
         catchError(error => this.handleError(error))

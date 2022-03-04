@@ -61,3 +61,8 @@ export interface MovieComment {
   rating: number;
   text: string;
 }
+
+export interface MovieGenre {
+  id: number,
+  name: string,
+}

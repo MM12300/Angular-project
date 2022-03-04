@@ -1,5 +1,5 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
-import {Movie} from "../../interfaces/movies";
+import {Movie, MovieGenre} from "../../interfaces/movies";
 import {ApiService} from "../../services/api.service";
 
 @Component({
@@ -11,7 +11,8 @@ import {ApiService} from "../../services/api.service";
 
 export class HomepageComponent implements OnInit {
 
-  public movies: Movie[] | undefined
+  public movies!: Movie[]
+  public genres!: MovieGenre[]
 
   constructor(private apiService: ApiService) { }
 
@@ -19,6 +20,9 @@ export class HomepageComponent implements OnInit {
     this.apiService.getAllMovies().subscribe(movies => {
       this.movies = movies;
     });
+    this.apiService.getAllMovieGenres().subscribe(genres =>{
+      this.genres = genres;
+    })
   }
 
 }
