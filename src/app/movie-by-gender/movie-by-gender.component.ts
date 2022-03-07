@@ -34,9 +34,6 @@ export class MovieByGenderComponent implements OnInit {
   });
   }
 
-
-
-
   getMovies(): string{
     const genre_id = Number(this.route.snapshot.paramMap.get('id'));
     this.apiService.getAllMovies().subscribe(movies => {

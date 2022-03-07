@@ -1,8 +1,8 @@
 <section *ngIf="movie">
   <img src="{{movie.poster_path}}"  alt="poster"/>
   <div id="movie details">
-    <h2>Title : <span>{{movie.title}}</span></h2>
-    <p>Budget : <span>{{movie.budget}} USD</span></p>
+    <h2>{{movie.title}}</h2>
+    <p>Budget : <span>{{movie.budget}}</span> USD</p>
     <p>Overview : <span>{{movie.overview}}</span></p>
   </div>
 
