@@ -14,6 +14,7 @@ import { MovieByGenderComponent } from './movie-by-gender/movie-by-gender.compon
 
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MoviesListComponent } from './movies-list/movies-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MovieDetailComponent,
     MovieAddCommentComponent,
     SidebarComponent,
-    MovieByGenderComponent
+    MovieByGenderComponent,
+    MoviesListComponent
   ],
   imports: [
     BrowserModule,

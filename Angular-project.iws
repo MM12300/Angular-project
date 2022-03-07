@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="trick to update movie-detail component">
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="css and content">
+      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,21 @@
       <recent name="C:\_CODE\Angular-project\src" />
       <recent name="C:\_CODE\Angular-project\src\app\services" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -201,7 +214,35 @@
       <option name="project" value="LOCAL" />
       <updated>1646413912914</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="logo I forgot to push">
+      <created>1646643700090</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1646643700090</updated>
+    </task>
+    <task id="LOCAL-00022" summary="card slight improvements (plus ellipsis that was removed)">
+      <created>1646643956773</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1646643956773</updated>
+    </task>
+    <task id="LOCAL-00023" summary="forgotten spinner">
+      <created>1646644386197</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1646644386197</updated>
+    </task>
+    <task id="LOCAL-00024" summary="css and content">
+      <created>1646645379845</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1646645379845</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +281,10 @@
     <MESSAGE value="movie genres list from API" />
     <MESSAGE value="header shifted to main template&#10;+ sidebar component refactor" />
     <MESSAGE value="trick to update movie-detail component" />
-    <option name="LAST_COMMIT_MESSAGE" value="trick to update movie-detail component" />
+    <MESSAGE value="logo I forgot to push" />
+    <MESSAGE value="card slight improvements (plus ellipsis that was removed)" />
+    <MESSAGE value="forgotten spinner" />
+    <MESSAGE value="css and content" />
+    <option name="LAST_COMMIT_MESSAGE" value="css and content" />
   </component>
 </project>
