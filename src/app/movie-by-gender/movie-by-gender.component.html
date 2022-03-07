@@ -1,11 +1,10 @@
 <body>
 <div id="center" class="main center">
   <div class="container">
-    <div id="loader" *ngIf="this.loader; else elseBlock">
+    <div id="loader" *ngIf="this.loader === true; else elseBlock">
       <mat-spinner></mat-spinner>
       <p>Movies loading, please wait...</p>
     </div>
-
     <ng-template #elseBlock>
       <div class="row" >
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let movie of moviesByGenre">
@@ -16,6 +15,4 @@
 
   </div>
 </div>
-<mat-spinner [color]="'warn'" [mode]="'indeterminate'"></mat-spinner>
-
 </body>
