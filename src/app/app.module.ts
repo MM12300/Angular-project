@@ -12,6 +12,9 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MovieByGenderComponent } from './movie-by-gender/movie-by-gender.component';
 
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,8 @@ import { MovieByGenderComponent } from './movie-by-gender/movie-by-gender.compon
     HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    MatProgressSpinnerModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
