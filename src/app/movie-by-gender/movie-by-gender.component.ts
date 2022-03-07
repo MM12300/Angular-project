@@ -1,7 +1,7 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Movie} from "../../interfaces/movies";
 import {ApiService} from "../../services/api.service";
-import {ActivatedRoute, NavigationEnd, Router} from "@angular/router";
+import {ActivatedRoute, NavigationStart, Router} from "@angular/router";
 
 @Component({
   selector: 'app-movie-by-gender',
@@ -22,14 +22,19 @@ export class MovieByGenderComponent implements OnInit {
 
   ngOnInit(): void {
   this.getMovies();
-  this.router.events.subscribe((val) => {
-    this.loader = true;
-    setInterval(()=>{
-      this.getMovies();
-      this.loader = false;
-    }, 750);
+  this.router.events.subscribe((event) => {
+    if (event instanceof NavigationStart) {
+      this.loader = true;
+      setTimeout(()=>{
+        this.getMovies();
+        this.loader = false;
+      }, 750);
+    }
+
   });
   }
+
+
 
 
   getMovies(): string{

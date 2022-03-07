@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {catchError, Observable, throwError} from "rxjs";
+import {catchError, Observable, share, throwError} from "rxjs";
 import {Movie, MovieComment, MovieGenre} from "../interfaces/movies";
 import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 
@@ -23,9 +23,12 @@ export class ApiService {
         `https://movie-api.benoithubert.me/movies/${id}`
       )
       .pipe(
+        share())
+      .pipe(
         catchError(error => this.handleError(error))
       );
   }
+
 
   createComment(commentData : MovieComment, id:number): Observable<MovieComment> {
     return this.http

@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="css and content">
-      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/movies-list/movies-list.component.ts" afterDir="false" />
+    <list default="true" id="aa024ed5-b981-4c8b-abf6-121f42a7575d" name="Default Changelist" comment="css improvements and movies-list refactor">
       <change beforePath="$PROJECT_DIR$/Angular-project.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-project.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/homepage/homepage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/movie-by-gender/movie-by-gender.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646645379845</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="css improvements and movies-list refactor">
+      <created>1646645861088</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1646645861088</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +288,7 @@
     <MESSAGE value="card slight improvements (plus ellipsis that was removed)" />
     <MESSAGE value="forgotten spinner" />
     <MESSAGE value="css and content" />
-    <option name="LAST_COMMIT_MESSAGE" value="css and content" />
+    <MESSAGE value="css improvements and movies-list refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="css improvements and movies-list refactor" />
   </component>
 </project>
